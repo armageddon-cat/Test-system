@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Выезжающий Слайдер</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="jquery-1.6.2.min.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+$(".buttontext").click(function(){
+$("#panel").slideToggle("normal"); return false;
+});
+});
+</script> 
+
+</head>
+
+<body>
+
+
+<div id="container">
+<div id="panel">
+Полезное содержимое панели: (текст, картинки, ссылки и т.д.)
+</div>
+<p class="button"><a href="#" class="buttontext">Кликни меня</a></p>
+</div>
+
+
+</body>
+
+</html>

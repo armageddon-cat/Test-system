@@ -1,0 +1,22 @@
+#container {
+width: 152px;
+margin: 0 auto;
+}
+#panel {
+background: #1ca8f6;
+height: 230px;
+display: none;
+}
+.button {
+background: url(button.gif) no-repeat;
+width: 152px;
+height: 40px;
+border-top: #333 dotted 1px;
+text-align: center;
+padding: 7px 0 0;
+}
+.buttontext {
+font-weight: bold;
+font-size: 1.2em;
+text-shadow: 1px 1px 1px #666;
+}

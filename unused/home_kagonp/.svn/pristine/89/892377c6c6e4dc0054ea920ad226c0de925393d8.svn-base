@@ -1,0 +1,8 @@
+﻿<script src="script.js"></script>
+<form action="javascript:mes()">
+	mess<input type="text" autofocus id="text" onKeyUp="isValid();">
+	<input type="submit" id="subm">
+	<div id="result"></div>
+	
+
+</form>

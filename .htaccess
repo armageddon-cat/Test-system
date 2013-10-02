@@ -1,0 +1,9 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www.kovalenko.p.ht$
+RewriteRule ^/?(.*)$ http://kovalenko.p.ht/$1 [R=301,L]
+
+RewriteBase /
+RewriteRule index.php / [R=301,L]

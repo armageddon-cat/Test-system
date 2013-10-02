@@ -1,0 +1,19 @@
+#form {
+	border: solid 1px #555;
+	height: 120px;
+	width: 150px;
+	float: left;
+}
+
+#content {
+	border: solid 1px #555;
+	margin: 0 auto;
+	height: 500px;
+	width: 400px;
+	float: left;
+}
+
+#main {
+	width: 600px;
+	margin: 0 auto;
+}
